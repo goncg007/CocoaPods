@@ -18,6 +18,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'ruby-macho', github: 'Homebrew/ruby-macho', branch: 'master'
+
 group :development do
   cp_gem 'claide',                'CLAide'
   cp_gem 'cocoapods-core',        'Core'
